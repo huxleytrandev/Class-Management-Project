@@ -33,7 +33,7 @@
       "@/molecules/*": ["components/molecules/*"],
       "@/organisms/*": ["components/organisms/*"],
       "@/templates/*": ["components/templates/*"],
-      "@/pages/*": ["pages/*"],
+      "@/pages/*": ["components/pages/*"],
       "@/types": ["types"],
       "@/types/*": ["types/*"],
       "@/constants": ["constants"],

@@ -1,5 +1,13 @@
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+
+import { Login } from '@/pages/Login';
+
 const App = () => (
-  <div className='bg-blue-500 text-center font-bold'>Hello</div>
+  <Router>
+    <Routes>
+      <Route path='/login' element={<Login />} />
+    </Routes>
+  </Router>
 );
 
 export default App;
